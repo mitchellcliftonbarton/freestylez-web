@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background: #f1f1f1;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.main p {
+    width: 46%;
+/*    margin-left: 2.5%;*/
+    padding: 0 2%;
+    color: #5a5a5a;
+    margin: 5px 0px;
+    font-family: monospace;
+}
+
+.main .right {
+/*    padding-left: 50%;*/
+    padding: 0 2% 0 52%;
+}
+
+.divide {
+    position: fixed;
+    height: 100%;
+    width: 1px;
+    top: 0px;
+    background: #5a5a5a;
+    left: 50%;
+}
+
+.switch {
+    position: fixed;
+    top: 43%;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.switch .in {
+    width: 250px;
+    margin: 0 auto;
+    font-family: Courier New;
+    background: red;
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.image {
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+}
+
+.image img {
+    top: calc(50% - 250px);
+    opacity: .4;
+    position: absolute;
+    left: calc(50% - 200px);
+}
+
